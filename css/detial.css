@@ -1,0 +1,168 @@
+.one a:hover{
+	text-decoration: underline;
+}
+.desc a:hover{
+	color: #e36844;
+}
+p{
+	color: #999;
+	margin: 5px 0;
+}
+.three{
+	text-decoration: line-through;
+	padding: 10px 0 0 10px;
+	color: #999;
+}
+.wrapper{
+	width: 1090px;
+	margin: 0 auto;
+}
+.wrapper .nav ul{
+	height: 52px;
+}
+.wrapper .nav ul>li{
+	float: left;
+	font-size: 12px;
+	padding: 20px 0;
+}
+.wrapper .nav ul>li:nth-child(even){
+	width: 20px;
+	text-align: center;
+	color: #ccc;
+}
+.wrapper .content{
+	width: 1090px;
+	height: 602px;
+	position: relative;
+}
+.content .content-right{
+	width: 504px;
+	height: 601px;
+	float: right;
+}
+.content-right >.title{
+	margin-bottom: 20px;
+}
+.content-right >.title >a{
+	font-size: 12px;
+	color: #b19e7a;
+	border: 1px solid #b19e7a;
+	background-color: #f5f3ef;
+	padding: .2em;
+}
+.content-right h2{
+	margin-top: 10px;
+}
+.content-right .desc h2{
+	color: #e36844;
+}
+.content-right .desc{
+	position: absolute;
+	top: 20px;
+	right: 0;
+
+}
+.content-right .price{
+	width: 502px;
+	height: 202px;
+	padding-bottom: 13px;
+	border: 1px solid #ccc;
+	background-color: #f5f3ef;
+}
+.content-right .price ul:first-child~ul{
+	padding-left: 15px;
+}
+.content-right .price li{
+	float: left;
+	color: #999;
+}
+.content-right .price ul{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content-right li:first-child{
+	width: 55px;
+}
+.content-right .lebal{
+	height: 45px;
+	padding: 0 15px;
+	padding-top: 10px;
+}
+.content-right .price h1{
+	color: #d7282d;
+}
+
+.content-right .lebal li:last-child {
+	padding: 10px 0 0 10px;
+}
+.content-right .lebal li:last-child a{
+	background-color: #f8bc59;
+	padding: .1em .2em;
+	color: #a94528;
+}
+.price .lebal1>li:nth-child(2),
+.price .lebal1>li:nth-child(3){
+	width:103px;
+	background-color: #fefefe;
+	border: 1px solid red;
+	margin-right: 5px;
+}
+.price .lebal1>li:nth-child(4){
+	width:115px;
+	background-color: #fefefe;
+	margin-right: 5px;
+	border: 1px solid red;
+}
+.price .lebal1>li:last-child a{
+	color: red;
+}
+
+.price .lebal2>li{
+	padding-top: 20px;
+}
+.price .lebal3>li{
+	border-bottom: 1px dashed #ccc;
+	width: 470px;
+	margin: 15px 0;
+}
+.price .lebal3 .q{
+	width: 200px;
+	padding-right: 20px;
+}
+.wrapper .content-left{
+	width: 524px;
+	height: 440px;
+}
+.wrapper .photo>ul{
+	float: right;
+	position: relative;
+}
+.wrapper .photo>ul li{
+	box-sizing: border-box;
+	width: 78px;
+	height: 78px;
+	margin-bottom: 10px;
+}
+.wrapper .photo>ul li:first-child{
+	background-color: #f4f4f4;
+	border: 1px solid #ccc;
+	height: 75px;
+}
+.content-left .bigphoto{
+	background-color: #f4f4f4;
+	width: 430px;
+	height: 430px;
+	position: absolute;
+	top: 0;
+	left: -456px;
+}
+.wrapper .photo>ul >li:hover{
+	border: 2px solid #b4a078;
+}
+.wrapper .photo>ul >li:hover .bigphoto{
+	z-index: 999;
+}
+.photo img{
+	width: 100%;
+}
